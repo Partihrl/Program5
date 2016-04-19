@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -33,7 +32,7 @@ public class WebServer {
                   }
                }              
                if ( request[ 1 ].equals( "/" ) ) {
-                  request[ 1 ] += "index";
+                  request[ 1 ] += "homepage";
                }
                request[ 1 ] = request[ 1 ].substring( 1 ) + ".html";
                File fin = new File( request[ 1 ] );
