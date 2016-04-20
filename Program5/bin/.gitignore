@@ -3,3 +3,6 @@
 /homepage.html
 /WebServer.class
 /BasicWebServer.class
+/List$Node.class
+/List.class
+/EmptyListException.class
